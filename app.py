@@ -1,6 +1,6 @@
 from flask import Flask, request, jsonify #added to top of file
 from flask_cors import CORS #added to top of file
-from database_commands import *
+from database import *
 app = Flask(__name__)
 CORS(app, resources={r"/*": {"origins": "*"}})
 
