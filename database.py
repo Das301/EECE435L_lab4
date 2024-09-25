@@ -108,4 +108,3 @@ def delete_user(user_id):
     finally:
         conn.close()
     return message
-
